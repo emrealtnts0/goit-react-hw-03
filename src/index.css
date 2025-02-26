@@ -1,0 +1,47 @@
+
+h1 {
+font-size: 45px;
+margin-left: 20px;
+}
+
+body {
+  margin: 25px;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+button {
+  background-color: #28a745; /* Changed to a vibrant green color */
+  border-color: rgb(194, 194, 194);
+  border-radius: 4px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green for hover effect */
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  color: #333;
+  margin-left: 20px;
+}
+
+.label input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.label input:focus {
+  border-color: #007bff;
+}
+
